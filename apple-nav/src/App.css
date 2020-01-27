@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(44, 52, 66);
+  color: white;
+}
+.topNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.topNav > * {
+  text-decoration: none;
+  color: white;
+}
+.botNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.botNav > * {
+  text-decoration: none;
+  color: white;
+}
